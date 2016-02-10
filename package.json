@@ -5,7 +5,6 @@
     "files": [
         "css/select.jqueryui.css"
     ],
-    "main": "./js/select.jqueryui.js",
     "keywords": [
         "select",
         "selection",
