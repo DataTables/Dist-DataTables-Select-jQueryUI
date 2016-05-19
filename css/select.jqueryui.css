@@ -85,10 +85,6 @@ table.dataTable tr.selected td.select-checkbox:after {
   text-align: center;
   text-shadow: 1px 1px #B0BED9, -1px -1px #B0BED9, 1px -1px #B0BED9, -1px 1px #B0BED9;
 }
-table.dataTable tbody th,
-table.dataTable tbody td {
-  -moz-user-select: none;
-}
 
 div.dataTables_wrapper span.select-info,
 div.dataTables_wrapper span.select-item {
