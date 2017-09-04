@@ -3,7 +3,7 @@
     "version": "1.2.2",
     "description": "Select for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
-        "css/select.jqueryui.css"
+        "css/**/*.css"
     ],
     "style": "css/select.jqueryui.css",
     "keywords": [
