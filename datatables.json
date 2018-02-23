@@ -3,7 +3,10 @@
         "css/select.jqueryui.css",
         "css/select.jqueryui.min.css"
     ],
-    "js": [],
+    "js": [
+        "js/select.jqueryui.js",
+        "js/select.jqueryui.min.js"
+    ],
     "src-repo": "http://github.com/DataTables/Select",
     "last-sync": "97fb27cbe0a249d9314ec8a46c1fa98dc210e75e",
     "last-tag": "1.2.5"
