@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-select-jqui",
-    "version": "1.2.3",
+    "version": "1.2.5",
     "description": "Select for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/**/*.css"
@@ -24,7 +24,7 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net-jqui": "^1.10.15",
-        "datatables.net-select": "1.2.3"
+        "datatables.net-select": "1.2.5"
     },
     "repository": {
         "type": "git",
