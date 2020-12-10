@@ -85,7 +85,7 @@ table.dataTable tbody th.select-checkbox:before {
 }
 table.dataTable tr.selected td.select-checkbox:after,
 table.dataTable tr.selected th.select-checkbox:after {
-  content: "✔";
+  content: "✓";
   margin-top: -11px;
   margin-left: -4px;
   text-align: center;
