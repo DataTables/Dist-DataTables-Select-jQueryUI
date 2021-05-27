@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-select-ju</id>
-    <version>1.3.3</version>
-    <description>Select for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>select DataTables jQuery table jqueryUI</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Select-jqueryUI.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-select" version="1.3.1"/>
-      <dependency id="jqueryui" version="1.*"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/select.jqueryui.js" target="content\Scripts"/>
-    <file src="js/select.jqueryui.min.js" target="content\Scripts"/>
-    <file src="css/select.jqueryui.css" target="content\Content"/>
-    <file src="css/select.jqueryui.min.css" target="content\Content"/>
-    <file src="js/select.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/select.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/select.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/select.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>1.3.3</version>
+        <id>datatables.net-select-jqui</id>
+        <description>This is Select for DataTables with styling for [jQueryUI](http://jqueryui.com/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Select-jQueryUI.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>select  selection  jQuery UI  jQueryUI  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-select" version=">=1.3.3"/>
+            <dependency id="datatables.net-jqui" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/select.jqueryui.js" target="content\Scripts"/>
+        <file src="js/select.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/select.jqueryui.min.js" target="content\Scripts"/>
+        <file src="js/select.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/select.jqueryui.css" target="content\Content"/>
+        <file src="css/select.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/select.jqueryui.min.css" target="content\Content"/>
+        <file src="css/select.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/select.jQueryUI.d.ts" target="content\Scripts"/>
+        <file src="types/select.jQueryUI.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+
