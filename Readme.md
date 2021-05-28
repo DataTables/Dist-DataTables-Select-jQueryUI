@@ -19,7 +19,7 @@ npm install datatables.net-select-jqui
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables.net-select-jqui}' )( window, $ );
+var dt = require( 'datatables.net-select-jqui' )( window, $ );
 ```
 
 ### bower
