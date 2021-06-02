@@ -1,6 +1,6 @@
 # Select for DataTables with styling for [jQueryUI](http://jqueryui.com/)
 
-This package contains a built distribution of the [Select extension](https://datatables.net/extensions/Select) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
+This package contains a built distribution of the [Select extension](https://datatables.net/extensions/select) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
 
 Select provides table item selection capabilities - rows, columns and cells can be selected individually or collectively. Complex selection operations such as operating system style selection (ctrl/cmd and shift click) for multiple rows can be enabled with a single option for a DataTable.
 
