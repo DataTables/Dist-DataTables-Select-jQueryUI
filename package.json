@@ -12,9 +12,9 @@
     ],
     "keywords": [
         "select",
-        "selection",
+ "selection",
         "jQuery UI",
-        "jQueryUI",
+ "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -22,8 +22,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-select": ">=1.3.3",
-        "datatables.net-jqui": ">=1.11.3",
+        "datatables.net-select": ">=1.3.4",
+        "datatables.net-jqui": ">=1.11.5",
         "jquery": ">=1.7"
     },
     "moduleType": [
