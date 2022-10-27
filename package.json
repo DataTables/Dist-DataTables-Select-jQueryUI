@@ -4,7 +4,7 @@
     "main": "js/select.jqueryui.js",
     "module": "js/select.jqueryui.mjs",
     "style": "css/select.jqueryui.css",
-    "types": "./types/select.jQueryUI.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.4.0",
     "files": [
         "css/**/*.css",

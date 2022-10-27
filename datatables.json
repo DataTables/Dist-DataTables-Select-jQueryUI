@@ -10,7 +10,8 @@
         "css/select.jqueryui.min.css"
     ],
     "types": [
-        "types/select.jQueryUI.d.ts"
+        "types/select.jQueryUI.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/Select",
     "last-tag": "1.4.0"
