@@ -5,7 +5,7 @@
     "module": "js/select.jqueryui.mjs",
     "style": "css/select.jqueryui.css",
     "types": "./types/types.d.ts",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
