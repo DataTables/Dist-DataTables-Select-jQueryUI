@@ -1,7 +1,3 @@
-table.dataTable > tbody > tr > .selected {
-  background-color: rgba(13, 110, 253, 0.9);
-  color: white;
-}
 table.dataTable > tbody > tr > td.select-checkbox,
 table.dataTable > tbody > tr > th.select-checkbox {
   position: relative;
@@ -50,6 +46,13 @@ table.dataTable.compact > tbody > tr.selected > th.select-checkbox:after {
 div.dataTables_wrapper span.select-info,
 div.dataTables_wrapper span.select-item {
   margin-left: 0.5em;
+}
+
+html.dark table.dataTable > tbody > tr > td.select-checkbox:before,
+html.dark table.dataTable > tbody > tr > th.select-checkbox:before,
+html[data-bs-theme=dark] table.dataTable > tbody > tr > td.select-checkbox:before,
+html[data-bs-theme=dark] table.dataTable > tbody > tr > th.select-checkbox:before {
+  border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (max-width: 640px) {
