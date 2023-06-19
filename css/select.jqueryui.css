@@ -1,3 +1,7 @@
+table.dataTable > tbody > tr > .selected {
+  background-color: rgba(13, 110, 253, 0.9);
+  color: white;
+}
 table.dataTable > tbody > tr > td.select-checkbox,
 table.dataTable > tbody > tr > th.select-checkbox {
   position: relative;
