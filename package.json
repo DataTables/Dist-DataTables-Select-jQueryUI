@@ -4,7 +4,7 @@
     "main": "js/select.jqueryui.js",
     "module": "js/select.jqueryui.mjs",
     "style": "css/select.jqueryui.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/select.jqueryui.d.ts",
     "version": "1.6.2",
     "files": [
         "css/**/*.css",
@@ -14,9 +14,9 @@
     ],
     "keywords": [
         "select",
-        "selection",
+ "selection",
         "jQuery UI",
-        "jQueryUI",
+ "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -24,8 +24,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-select": ">=1.4.0",
-        "datatables.net-jqui": ">=1.12.1",
+        "datatables.net-select": ">=1.6.2",
+        "datatables.net-jqui": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
