@@ -5,7 +5,7 @@
     "module": "js/select.jqueryui.mjs",
     "style": "css/select.jqueryui.css",
     "types": "./types/select.jqueryui.d.ts",
-    "version": "1.6.2",
+    "version": "1.7.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,9 +14,9 @@
     ],
     "keywords": [
         "select",
- "selection",
+        "selection",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
