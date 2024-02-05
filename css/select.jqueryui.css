@@ -1,6 +1,6 @@
 table.dataTable > tbody > tr > .selected {
   background-color: rgba(13, 110, 253, 0.9);
-  color: inherit;
+  color: white;
 }
 table.dataTable > tbody > tr > .dt-select {
   text-align: center;
