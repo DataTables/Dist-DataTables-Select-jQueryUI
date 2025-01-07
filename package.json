@@ -5,7 +5,7 @@
     "module": "js/select.jqueryui.mjs",
     "style": "css/select.jqueryui.css",
     "types": "./types/select.jqueryui.d.ts",
-    "version": "2.1.0",
+    "version": "3.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -24,7 +24,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-select": "2.1.0",
+        "datatables.net-select": "3.0.0",
         "datatables.net-jqui": "^2",
         "jquery": ">=1.7"
     },
