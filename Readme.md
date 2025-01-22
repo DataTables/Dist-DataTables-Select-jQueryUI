@@ -1,6 +1,6 @@
 # Select for DataTables with styling for [jQueryUI](http://jqueryui.com/)
 
-This package contains a built distribution of the [Select extension](https://datatables.net/extensions/select) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
+This is the distribution package for the [Select extension](https://datatables.net/extensions/select) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
 
 Select provides table item selection capabilities - rows, columns and cells can be selected individually or collectively. Complex selection operations such as operating system style selection (ctrl/cmd and shift click) for multiple rows can be enabled with a single option for a DataTable.
 
@@ -9,42 +9,37 @@ Select provides table item selection capabilities - rows, columns and cells can 
 
 ### Browser
 
-For inclusion of this library using a standard `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
+To use DataTables with a simple `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
 
 ### npm
 
+For installation via npm, yarn and other similar package managers, install this package with your package manager - e.g.:
+
 ```
+npm install datatables.net-jqui
 npm install datatables.net-select-jqui
 ```
 
-ES3 Syntax
-```
-var $ = require( 'jquery' );
-var dt = require( 'datatables.net-select-jqui' )( window, $ );
-```
+Then, to load and initialise the software in your code use:
 
-ES6 Syntax
 ```
+import DataTable from 'datatables.net-jqui';
 import 'datatables.net-select-jqui'
-```
 
-### bower
-
+new DataTable('#myTable', {
+    // initalisation options
+});
 ```
-bower install --save datatables.net-select-jqui
-```
-
 
 
 ## Documentation
 
-Full documentation and examples for Select can be found [on the website](https://datatables.net/extensions/select).
+Full documentation and examples for Select can be found [on the DataTables website](https://datatables.net/extensions/select).
 
 
 ## Bug / Support
 
 Support for DataTables is available through the [DataTables forums](//datatables.net/forums) and [commercial support options](//datatables.net/support) are available.
-
 
 ### Contributing
 
