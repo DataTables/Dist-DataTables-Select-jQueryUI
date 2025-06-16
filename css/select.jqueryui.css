@@ -8,6 +8,11 @@ table.dataTable > tbody > tr > .dt-select {
 }
 table.dataTable > thead > tr > .dt-select {
   text-align: center;
+  vertical-align: middle;
+}
+table.dataTable > thead > tr > .dt-select input.dt-select-checkbox {
+  margin-left: auto;
+  margin-right: auto;
 }
 table.dataTable input.dt-select-checkbox {
   appearance: none;
