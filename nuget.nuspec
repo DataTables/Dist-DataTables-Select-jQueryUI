@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>select  selection  jQuery UI  jQueryUI  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-select" version="1.4.0"/>
-            <dependency id="datatables.net-jqui" version="1.12.1"/>
+            <dependency id="datatables.net-select" version="3.0.1"/>
+            <dependency id="datatables.net-jqui" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/select.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/select.jqueryui.min.js" target="content\Scripts"/>
         <file src="js/select.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/select.jqueryui.min.mjs" target="content\Scripts"/>
+        <file src="js/select.jqueryui.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/select.jqueryui.mjs" target="content\Scripts"/>
+        <file src="js/select.jqueryui.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/select.jqueryui.css" target="content\Content"/>
         <file src="css/select.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/select.jqueryui.min.css" target="content\Content"/>
