@@ -2,6 +2,12 @@ table.dataTable > tbody > tr > .selected {
   background-color: rgba(13, 110, 253, 0.9);
   color: white;
 }
+
+div.dt-container span.select-info,
+div.dt-container span.select-item {
+  margin-left: 0.5em;
+}
+
 table.dataTable > tbody > tr > .dt-select {
   text-align: center;
   vertical-align: middle;
@@ -81,11 +87,6 @@ table.dataTable.compact > tbody > tr > th.select-checkbox:before {
 table.dataTable.compact > tbody > tr.selected > td.select-checkbox:after,
 table.dataTable.compact > tbody > tr.selected > th.select-checkbox:after {
   margin-top: -16px;
-}
-
-div.dt-container span.select-info,
-div.dt-container span.select-item {
-  margin-left: 0.5em;
 }
 
 html.dark table.dataTable input.dt-select-checkbox:indeterminate:after,
