@@ -1,6 +1,17 @@
+:root {
+  --dtsl-tick_margin-top: -8px;
+  --dtsl-tick_line-height: 6px;
+  --dtsl-tick_border: 1px solid;
+  --dtsl-tick_border-checked: 1px solid;
+  --dtsl-tick_content-checked: '\2713';
+}
+
 table.dataTable > tbody > tr > .selected {
-  background-color: rgba(13, 110, 253, 0.9);
-  color: rgb(var(--dt-row-selected-text));
+  background-color: rgb(var(--dt_background-selected));
+  color: rgb(var(--dt_color-selected));
+}
+table.dataTable > tbody > tr > .selected a {
+  color: rgb(var(--dt_link_color-selected));
 }
 
 div.dt-container span.select-info,
@@ -33,7 +44,7 @@ table.dataTable input.dt-select-checkbox {
   display: inline-block;
   width: 12px;
   height: 12px;
-  border: 1px solid;
+  border: var(--dtsl-tick_border);
   border-radius: 3px;
   vertical-align: middle;
   margin-top: 1px;
@@ -43,8 +54,8 @@ table.dataTable input.dt-select-checkbox {
 }
 table.dataTable input.dt-select-checkbox:checked:after {
   display: block;
-  content: "✓";
-  margin-top: -8px;
+  content: var(--dtsl-tick_content-checked);
+  margin-top: var(--dtsl-tick_margin-top);
 }
 table.dataTable input.dt-select-checkbox:indeterminate:after {
   display: block;
@@ -58,7 +69,7 @@ table.dataTable input.dt-select-checkbox:indeterminate:after {
   border-radius: 2px;
 }
 table.dataTable > tbody > tr.selected input.dt-select-checkbox:checked {
-  border: 1px solid;
+  border: var(--dtsl-tick_border-checked);
 }
 table.dataTable > tbody > tr > td.select-checkbox,
 table.dataTable > tbody > tr > th.select-checkbox {
@@ -76,15 +87,15 @@ table.dataTable > tbody > tr > th.select-checkbox:before {
   content: " ";
   margin-top: -6px;
   margin-left: -6px;
-  border: 1px solid;
+  border: var(--dtsl-tick_border);
   border-radius: 3px;
 }
 table.dataTable > tbody > tr.selected > td.select-checkbox:before,
 table.dataTable > tbody > tr.selected > th.select-checkbox:before {
-  border: 1px solid;
+  border: var(--dtsl-tick_border-checked);
   content: "✓";
   font-size: 20px;
-  line-height: 6px;
+  line-height: var(--dtsl-tick_line-height);
   text-align: center;
 }
 table.dataTable.compact > tbody > tr > td.select-checkbox:before,
