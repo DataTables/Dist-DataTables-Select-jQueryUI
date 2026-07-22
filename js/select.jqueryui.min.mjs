@@ -1,4 +1,4 @@
-/*! Select jQuery UI styling 4.0.0-beta.1 for DataTables
+/*! Select jQuery UI styling 4.0.0 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 import DataTable from"datatables.net-jqui";import select from"datatables.net-select";export default DataTable;
