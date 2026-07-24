@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <version>4.0.0-beta.1</version>
+        <version>4.0.0</version>
         <id>datatables.net-select-jqui</id>
         <description>This is Select for DataTables with styling for [jQueryUI](http://jqueryui.com/)</description>
         <repository type="git" url="https://github.com/DataTables/Select"/>
@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>select  selection  UI  jQueryUI  Datatables table</tags>
         <dependencies>
-            <dependency id="datatables.net-select" version="4.0.0-beta.1"/>
-            <dependency id="datatables.net-jqui" version="4.0.0-beta.1"/>
+            <dependency id="datatables.net-select" version="4.0.0"/>
+            <dependency id="datatables.net-jqui" version="4.0.0"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
