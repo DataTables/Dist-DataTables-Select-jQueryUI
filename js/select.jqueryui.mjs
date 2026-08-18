@@ -1,4 +1,4 @@
-/*! Select jQuery UI styling 4.0.0 for DataTables
+/*! Select jQuery UI styling 4.0.1 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
