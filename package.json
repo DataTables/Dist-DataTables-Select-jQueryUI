@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-select-jqui",
     "description": "Select for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/select.jqueryui.js",
-    "module": "js/select.jqueryui.mjs",
-    "style": "css/select.jqueryui.css",
+    "main": "./js/select.jqueryui.js",
+    "module": "./js/select.jqueryui.mjs",
+    "style": "./css/select.jqueryui.css",
     "types": "./types/select.jqueryui.d.ts",
     "version": "4.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "select",
@@ -36,5 +35,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Select.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/select.jqueryui.d.ts",
+            "import": "./js/select.jqueryui.mjs",
+            "default": "./js/select.jqueryui.mjs",
+            "require": "./js/select.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/select.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }

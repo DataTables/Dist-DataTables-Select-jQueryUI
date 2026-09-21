@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-select-jqui",
-    "description": "Select for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "description": "Select for DataTables with styling for jQueryUI",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-Select-jQueryUI"
