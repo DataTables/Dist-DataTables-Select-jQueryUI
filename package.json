@@ -39,9 +39,10 @@
     "exports": {
         ".": {
             "types": "./types/select.jqueryui.d.ts",
+            "style": "./css/select.jqueryui.css",
             "import": "./js/select.jqueryui.mjs",
-            "default": "./js/select.jqueryui.mjs",
-            "require": "./js/select.jqueryui.js"
+            "require": "./js/select.jqueryui.js",
+            "default": "./js/select.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
